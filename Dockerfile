@@ -1,4 +1,4 @@
-FROM php:8.1-cli-alpine AS builder
+FROM php:8.5.3RC1-cli-alpine AS builder
 
 RUN apk add python3 py3-rich curl
 
